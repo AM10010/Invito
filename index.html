@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="logo.png" type="image/x-icon" />
+<title>Invito — Luxury Digital Invitations</title>
+<meta name="description" content="Crafting your story with the finest details and the luxury of modern design." />
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Fonts: Cormorant Garamond (serif display) + Jost (sans) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- ============ NAVBAR ============ -->
+<header class="site-header">
+  <nav class="navbar-pill container-xxl">
+    <a class="brand" href="#top" aria-label="Invito">
+      <span class="brand-mark">✦</span>
+      <span class="brand-name">INVITO</span>
+    </a>
+    <ul class="nav-links d-none d-lg-flex">
+      <li><a href="#process">Process</a></li>
+      <li><a href="#templates">Designs</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="https://wa.me/201279431436" target="_blank" rel="noopener">Contact</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="pill-btn" id="themeToggle" aria-label="Toggle theme"><i class="bi bi-moon"></i></button>
+      <button class="pill-btn lang-btn">AR</button>
+      <button class="pill-btn d-lg-none" id="menuToggle" aria-label="Open menu"><i class="bi bi-list"></i></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#process">Process</a>
+    <a href="#templates">Designs</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#why">Why Us</a>
+    <a href="https://wa.me/201279431436" target="_blank" rel="noopener">Contact</a>
+  </div>
+</header>
+<main id="top">
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-decor hero-decor-tl"></div>
+  <div class="hero-decor hero-decor-br"></div>
+  <div class="container text-center hero-inner">
+    <p class="eyebrow">Luxury Digital Invitations</p>
+    <h1 class="display-title">A Memory Worth <br/> Keeping</h1>
+    <div class="divider-diamond" aria-hidden="true">
+      <span></span><i>◇</i><span></span>
+    </div>
+    <p class="lead-copy">Crafting your story with the finest details and the luxury of modern design.</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+      <a href="#pricing" class="btn btn-primary-dark">Begin Your Memory</a>
+      <a href="#templates" class="btn btn-outline-dark-pill">Explore Designs</a>
+    </div>
+  </div>
+</section>
+<!-- ============ PROCESS ============ -->
+<section id="process" class="section">
+  <div class="container">
+    <p class="eyebrow text-center">How it Works</p>
+    <h2 class="section-title text-center">Your <em>Journey</em> with Us</h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <article class="process-card">
+          <span class="step-num">01</span>
+          <h3>Choose Your Design</h3>
+          <p>Browse our collection and pick the template that best matches your story and style.</p>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <article class="process-card">
+          <span class="step-num">02</span>
+          <h3>Contact Us</h3>
+          <p>Send us a message on WhatsApp — we'll confirm your booking and get you started right away.</p>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <article class="process-card">
+          <span class="step-num">03</span>
+          <h3>Fill in Your Details</h3>
+          <p>We'll send you a simple form to fill in your event info, photos, colors, and music choice.</p>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <article class="process-card">
+          <span class="step-num">04</span>
+          <h3>Receive Your Link</h3>
+          <p>Get your final invitation link — ready to share instantly with all your guests.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ TEMPLATES ============ -->
+<section id="templates" class="section section-tint">
+  <div class="container">
+    <h2 class="section-title text-center">Standard Collection</h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="row g-4" id="standardGrid"></div>
+    <h2 class="section-title text-center mt-5 pt-4">Premium <em>Collection</em></h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="row g-4" id="premiumGrid"></div>
+  </div>
+</section>
+<!-- ============ PRICING ============ -->
+<section id="pricing" class="section">
+  <div class="container">
+    <p class="eyebrow text-center">Pricing Packages</p>
+    <h2 class="section-title text-center">Choose Your <em>Experience</em></h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="row g-4 justify-content-center">
+      <!-- Standard -->
+      <div class="col-md-6 col-lg-4">
+        <div class="price-card">
+          <h3>Standard Plan</h3>
+          <div class="price-row">
+            <span class="price">800<small>EGP</small></span>
+            <span class="badge-off">-33%</span>
+          </div>
+          <p class="strike">1,200 EGP <span>save 400 EGP</span></p>
+          <p class="offer">🔒 Offer until 30 July</p>
+          <hr/>
+          <ul class="feature-list">
+            <li>Pick a template from our collection</li>
+            <li>Your information and colors applied to the design</li>
+            <li>Personalized background music of your choice</li>
+            <li>Add or remove sections (Countdown, Location, Guidelines, Gallery)</li>
+          </ul>
+          <p class="addon-title">Add extra features</p>
+          <ul class="addon-list">
+            <li>Bilingual Website (EN & AR) <span>+400 EGP</span></li>
+            <li>Digital RSVP & Guest List <span>+300 EGP</span></li>
+            <li>Custom Link Preview Photo <span>+200 EGP</span></li>
+          </ul>
+          <a href="https://wa.me/201557214517?text=I%20am%20interested%20in%20the%20Standard%20Plan" class="btn btn-primary-dark w-100 mb-2" target="_blank" rel="noopener">Start my invitation →</a>
+          <a href="#templates" class="btn btn-link-dark w-100">Explore our templates</a>
+        </div>
+      </div>
+      <!-- Premium -->
+      <div class="col-md-6 col-lg-4">
+        <div class="price-card featured">
+          <span class="ribbon">★ Most couples choose this</span>
+          <h3>Premium Plan</h3>
+          <div class="price-row">
+            <span class="price">1,000<small>EGP</small></span>
+            <span class="badge-off">-33%</span>
+          </div>
+          <p class="strike">1,500 EGP <span>save 500 EGP</span></p>
+          <p class="offer">🔒 Offer until 30 July</p>
+          <hr/>
+          <ul class="feature-list">
+            <li>Pick a template from our premium collection</li>
+            <li>Animated Preloader & Cinematic Hero Section</li>
+            <li>Your information and colors applied to the design</li>
+            <li>Personalized background music of your choice</li>
+            <li>Add or remove sections (Countdown, Location, Guidelines, Gallery)</li>
+            <li>Beautifully narrated 'Love Story' section</li>
+          </ul>
+          <p class="addon-title">Add extra features</p>
+          <ul class="addon-list">
+            <li>Bilingual Website (EN & AR) <span>+400 EGP</span></li>
+            <li>Digital RSVP & Guest List <span>+300 EGP</span></li>
+            <li>Custom Link Preview Photo <span>+200 EGP</span></li>
+          </ul>
+          <a href="https://wa.me/201557214517?text=I%20am%20interested%20in%20the%20Premium%20Plan" class="btn btn-primary-dark w-100 mb-2" target="_blank" rel="noopener">Start my invitation →</a>
+          <a href="#templates" class="btn btn-link-dark w-100">Explore premium templates</a>
+        </div>
+      </div>
+      <!-- Custom -->
+      <div class="col-md-6 col-lg-4">
+        <div class="price-card">
+          <span class="ribbon soft">✿ 100% Unique Design</span>
+          <h3>Customized Plan</h3>
+          <div class="price-row">
+            <span class="price price-text">Tailored Cost</span>
+          </div>
+          <p class="offer">🔒 Depends on the details</p>
+          <hr/>
+          <ul class="feature-list">
+            <li>100% fully customized design built from scratch</li>
+            <li>Add any custom sections tailored exactly to your needs</li>
+            <li>We bring any theme, idea, or concept to life</li>
+            <li>Highly personalized details matching your unique love story</li>
+            <li>Unlimited revisions until it matches your exact vision</li>
+          </ul>
+          <a href="https://wa.me/201557214517?text=I%20am%20interested%20in%20a%20Bespoke%20Plan" class="btn btn-primary-dark w-100 mt-4" target="_blank" rel="noopener">Start my invitation →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ PREVIEW ============ -->
+<section class="section section-tint">
+  <div class="container text-center">
+    <p class="eyebrow">Live Preview</p>
+    <h2 class="section-title">Your Invitation, In Your <em>Guests'</em> Hands</h2>
+    <div class="divider-diamond mx-auto mb-4" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="btn-group device-switch" role="group" aria-label="Device preview">
+      <button type="button" class="btn active" data-device="mobile">Mobile</button>
+      <button type="button" class="btn" data-device="tablet">Tablet</button>
+      <button type="button" class="btn" data-device="desktop">Desktop</button>
+    </div>
+    <div class="device-frame mt-5" id="deviceFrame">
+      <div class="phone-mock">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-hero"></div>
+          <div class="phone-caption">
+            <p class="phone-eyebrow">Together Forever</p>
+            <h4>Layla &amp; Omar</h4>
+            <p class="phone-meta">30 · 08 · 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ WHY US ============ -->
+<section id="why" class="section">
+  <div class="container">
+    <p class="eyebrow text-center">Why Zeekraa</p>
+    <h2 class="section-title text-center">An <em>Attention</em> to details</h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4"><div class="why-card"><i class="bi bi-gem"></i><h3>Unique Designs</h3><p>Custom-made invitations that perfectly match your special story.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="why-card"><i class="bi bi-share"></i><h3>Easy Sharing</h3><p>Share your joy with family and friends in just one click.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="why-card"><i class="bi bi-devices"></i><h3>Works Everywhere</h3><p>Looks beautiful on phones, tablets, and computers.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="why-card"><i class="bi bi-stars"></i><h3>Beautiful Animations</h3><p>Smooth animations that make your invitation feel alive.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="why-card"><i class="bi bi-heart"></i><h3>Lasting Memories</h3><p>A digital memory you can keep and look back on forever.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="why-card"><i class="bi bi-award"></i><h3>Fine Craft</h3><p>Every detail is polished — from typography to timing.</p></div></div>
+    </div>
+  </div>
+</section>
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section-tint">
+  <div class="container">
+    <p class="eyebrow text-center">Words of Love</p>
+    <h2 class="section-title text-center">Loved by <em>Couples</em></h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><div class="row g-4" id="reviewRow1"></div></div>
+        <div class="carousel-item"><div class="row g-4" id="reviewRow2"></div></div>
+      </div>
+      <div class="carousel-indicators position-static mt-4">
+        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ FAQ ============ -->
+<section id="faq" class="section">
+  <div class="container" style="max-width:860px">
+    <p class="eyebrow text-center">Questions</p>
+    <h2 class="section-title text-center">Frequently Asked <em>Questions</em></h2>
+    <div class="divider-diamond mx-auto mb-5" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <div class="accordion faq-accordion" id="faqAccordion"></div>
+  </div>
+</section>
+<!-- ============ CTA ============ -->
+<section class="section cta-section">
+  <div class="container text-center">
+    <p class="eyebrow">Begin Your Memory</p>
+    <h2 class="section-title">Let Us <em>Craft</em> Yours</h2>
+    <div class="divider-diamond mx-auto mb-4" aria-hidden="true"><span></span><i>◇</i><span></span></div>
+    <p class="lead-copy mx-auto" style="max-width:620px">Every great story deserves a cinematic beginning. Let us craft a timeless digital invitation that captures the soul of your celebration.</p>
+    <a href="https://wa.me/201557214517" target="_blank" rel="noopener" class="btn btn-primary-dark mt-3">Begin Your Memory</a>
+  </div>
+</section>
+</main>
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4 align-items-center">
+      <div class="col-md-4">
+        <div class="brand"><span class="brand-mark">✦</span><span class="brand-name">Zeekraa</span></div>
+        <p class="mt-2 mb-0 small">Luxury digital invitations, crafted with care.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="footer-links">
+          <a href="#process">Process</a>
+          <a href="#templates">Designs</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <a href="https://wa.me/201557214517" target="_blank" rel="noopener" class="social-btn"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-btn"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+    <hr/>
+    <p class="text-center small mb-0">© <span id="year"></span> Zeekraa — All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
