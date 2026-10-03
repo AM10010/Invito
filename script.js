@@ -22,23 +22,22 @@
   });
   /* -------- Templates -------- */
   const standard = [
-    {name:'Mohamed & Farah', desc:'Fun, warm & full of personality. Perfect for young couples who want their invitation to feel alive, playful, and a little unforgettable.', img:'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&auto=format&fit=crop&q=70'},
-    {name:'Adam & Farah', desc:'A modern, funky vibe with individual portraits and a totally different layout. Made for couples who dare to stand out.', img:'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=800&auto=format&fit=crop&q=70'},
-    {name:'Ahmed & Laila', desc:'Refined, calm, and beautifully simple. For couples who prefer elegance with no excess — just pure, clean sophistication.', img:'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&auto=format&fit=crop&q=70'},
-    {name:'Yonis & Assel', desc:'Our best-selling Arabic template. Elegant, calm, and cinematic with an Eastern soul that feels right at home with our traditions.', img:'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&auto=format&fit=crop&q=70'},
-    {name:'Michael & Natalia', desc:'Sleek, minimal, and seriously elegant. The stunning preloader sets it apart — ideal for couples who want beauty without noise.', img:'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&auto=format&fit=crop&q=70'},
-    {name:'Omar & Laila', desc:'The simplest, most minimal template in the collection. No extra styling, no clutter — pure simplicity for those who love clean design.', img:'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&auto=format&fit=crop&q=70'},
-    {name:'Zain & Malak', desc:'A graceful Arabic template that beautifully presents every wedding detail in a calm, elegant, and Eastern-inspired style.', img:'https://images.unsplash.com/photo-1519657337289-077653f724ed?w=800&auto=format&fit=crop&q=70'},
-    {name:'Layla & Omar', desc:'Designed for couples who love showcasing their photos together. Gorgeous, ultra-refined, and made to impress.', img:'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&auto=format&fit=crop&q=70'},
-    {name:'Selim & Menna', desc:'A very different style from everything else — built for couples who love change and want something truly unique.', img:'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800&auto=format&fit=crop&q=70'},
-    {name:'Mohamed & Sara', desc:'A clean, crisp Arabic design with a single harmonious color palette. Perfect for couples who want an elegant bilingual Arabic website.', img:'https://images.unsplash.com/photo-1520854221050-0f4caff449fb?w=800&auto=format&fit=crop&q=70'},
+    {name:'Abanoub & Sarah',demoUrl:'https://am10010.github.io/WT1/',desc:'Fun, warm & full of personality. Perfect for young couples who want their invitation to feel alive, playful, and a little unforgettable.', img:'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&auto=format&fit=crop&q=70'},
+    {name:'Adam & Rahma',demoUrl:'https://am10010.github.io/WT2/', desc:'A modern, funky vibe with individual portraits and a totally different layout. Made for couples who dare to stand out.', img:'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=800&auto=format&fit=crop&q=70'},
+    {name:'Sam & Sofia',demoUrl:'https://am10010.github.io/WT4/', desc:'Refined, calm, and beautifully simple. For couples who prefer elegance with no excess — just pure, clean sophistication.', img:'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&auto=format&fit=crop&q=70'},
+    {name:'Ahmed & Laila',demoUrl:'https://am10010.github.io/WT5/', desc:'Our best-selling Arabic template. Elegant, calm, and cinematic with an Eastern soul that feels right at home with our traditions.', img:'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&auto=format&fit=crop&q=70'},
+    {name:'Omar & Laila',demoUrl:'https://am10010.github.io/T6/', desc:'Sleek, minimal, and seriously elegant. The stunning preloader sets it apart — ideal for couples who want beauty without noise.', img:'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&auto=format&fit=crop&q=70'},
+    {name:'Michael & Natalia',demoUrl:'https://am10010.github.io/Wedding-New/', desc:'The simplest, most minimal template in the collection. No extra styling, no clutter — pure simplicity for those who love clean design.', img:'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&auto=format&fit=crop&q=70'},
   ];
   const premium = [
-    {name:'Mahmoud & Lujain', desc:'A stunning and deeply elegant template, tailored for those who appreciate fine details and a sophisticated look for their special day.', img:'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&auto=format&fit=crop&q=70'},
-    {name:'Adam & Rahma', desc:'One of our finest premium templates. Incredibly polished, deeply crafted, and loved by everyone who sees it — truly worth every detail.', img:'https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=800&auto=format&fit=crop&q=70'},
-    {name:'Omar & Yasmine', desc:'Calm, beautiful, and perfect for beach or coastal celebrations. A peaceful elegance that feels like a sunset by the sea.', img:'https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=800&auto=format&fit=crop&q=70'},
-    {name:'Malek & Fayrozz', desc:'Stunning, bold, and breathtaking — perfect for any couple celebrating in a beautiful outdoor venue. Our most requested premium template.', img:'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&auto=format&fit=crop&q=70'},
-    {name:'Henna', desc:'The one and only henna-themed template in our entire collection. Playful, funky, and irresistibly charming — made for the bride who wants her invitation to feel as special as the night itself.', img:'https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&auto=format&fit=crop&q=70'},
+     {name:`Amelia's Birthday`,demoUrl:'https://am10010.github.io/BD1/', desc:'A graceful Arabic template that beautifully presents every wedding detail in a calm, elegant, and Eastern-inspired style.', img:'img/BD1.jpg'},
+    {name:`Mia's Birthday`, demoUrl:'https://am10010.github.io/BDT2/' ,desc: 'Designed for couples who love showcasing their photos together. Gorgeous, ultra-refined, and made to impress.', img:'img/BD2.png'},
+    {name:`Mousa's Birthday`,demoUrl:'https://am10010.github.io/BDT1/', desc:'A very different style from everything else — built for couples who love change and want something truly unique.', img:'img/BD3.jpg'},
+    {name:'Gender Reveal',demoUrl:'https://am10010.github.io/GRT1/', desc:'Stunning, bold, and breathtaking — perfect for any couple celebrating in a beautiful outdoor venue. Our most requested premium template.', img:'img/GR1.jpg'},
+    {name:`Gender Reveal`,demoUrl:'https://am10010.github.io/GR2/', desc:'Stunning, bold, and breathtaking — perfect for any couple celebrating in a beautiful outdoor venue. Our most requested premium template.', img:'img/GR2.jpg'},
+    {name:`Youssef & Aisha 's Anniversary`, demoUrl:'https://am10010.github.io/Romantic-Page/' ,desc: 'Designed for couples who love showcasing their photos together. Gorgeous, ultra-refined, and made to impress.', img:'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&auto=format&fit=crop&q=70'},
+    {name:`Anniversary`,demoUrl:'https://am10010.github.io/KOKY/', desc:'A very different style from everything else — built for couples who love change and want something truly unique.', img:'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800&auto=format&fit=crop&q=70'},
+    {name:`Fady & koki 's anniversary`, demoUrl:'https://am10010.github.io/file/' ,desc: 'Stunning, bold, and breathtaking — perfect for any couple celebrating in a beautiful outdoor venue. Our most requested premium template.', img:'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&auto=format&fit=crop&q=70'},
   ];
   function templateCard(t){
     return `
@@ -50,7 +49,7 @@
           <div class="tmpl-body">
             <h3>${t.name}</h3>
             <p>${t.desc}</p>
-            <a href="#" class="tmpl-demo">Try Demo →</a>
+            <a href="${t.demoUrl}" class="tmpl-demo" target="_blank">Try Demo →</a>
           </div>
         </article>
       </div>`;
